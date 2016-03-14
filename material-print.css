@@ -1,24 +1,26 @@
-#menubar,
-#header,
-#content .section-header,
-.offcanvas-holder {
-	display: none;
-}
+@media print {
+	#menubar,
+	#header,
+	#content .section-header,
+	.offcanvas-holder {
+		display: none;
+	}
 
-#content,
-#content .section-body {
-	padding: 0;
-}
+	#content,
+	#content .section-body {
+		padding: 0;
+	}
 
-.card-printable {
-	display: block;
-}
-.card-printable .card-head {
-	display: none;
-}
+	.card-printable {
+		display: block;
+	}
+	.card-printable .card-head {
+		display: none;
+	}
 
-body,
-#content > section {
-	background-color: #ffffff;
-	border: 0;
+	body,
+	#content > section {
+		background-color: #ffffff;
+		border: 0;
+	}
 }
